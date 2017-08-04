@@ -33,8 +33,7 @@ class GroupsController < ApplicationController
       render :edit
     end
   end
-    @group.update(group_params)
-    redirect_to groups_path, notice: "Update Success"
+
   end
 
   def destroy
